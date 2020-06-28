@@ -8,7 +8,7 @@ while(current!=NULL){
 N = current->next;
 current->next = prev;
 prev = current;
-current = N;
+current =;
 }
 head = prev;
 }
